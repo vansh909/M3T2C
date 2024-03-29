@@ -110,7 +110,7 @@ void head(int total_processes)
     // Returns the time it takes for the function to run
     auto duration = duration_cast<microseconds>(stop - start);
 
-    cout << "Time taken by function: " << duration.count() << " Microseconds" << endl;
+    cout << "Execution time (MPI+ OpenCL) " << duration.count() << " microseconds" << endl;
 
     // Free the memory for device, kernel, queue, etc
     free_memory();
