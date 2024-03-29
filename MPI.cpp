@@ -85,7 +85,7 @@ void head(int total_processes)
     // Returns the time it takes for the function to run
     auto duration = duration_cast<microseconds>(stop - start);
 
-    cout << "Execution time(MPI): " << duration.count() << " Microseconds" << endl;
+    cout << "Execution time(MPI): " << duration.count() << " microseconds" << endl;
 }
 
 void node(int total_processes, int rank)
